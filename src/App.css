@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Header {
+  height: 15vh;
+  background-color: #7F5B60;
+  display : flex;
+  justify-content: center;
+}
+
+.Logo {
+  color : white;
+  font-size: 100%;
+  height : auto;
+  width :auto;
+}
+
+.TitleMasterContainer {
+  background-color: #ffb6c1;
+  height : 10vh;
+  display:flex;
+  justify-content: center;
+}
+
+.TitleContainer {
+  background-color: #ffb6c1;
+  height:auto;
+  width: auto
+
+}
+
+.Pdiv {
+  margin-top: 10px;
+  background-color: lightblue;
+  height : auto;
+  width : 30vh;
+}
+
+.Image {
+background-size: contain;
+  border-radius: 50%;
+  height:20vh;
+  width:20vh;
+  margin: auto;
+}
+
+.ProfileDivContainer {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:  wrap
+}
+
+.Loading {
+  height : 100vh;
+  width: 200vh;
+  background-image: url("loading.gif");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
